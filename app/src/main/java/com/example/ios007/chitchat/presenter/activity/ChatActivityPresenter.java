@@ -34,15 +34,9 @@ public class ChatActivityPresenter extends NavigationListActivityPresenter<ChatA
         getAdapter().addAll(chats);
         UtilData.addChat(neitong);
         //onRefresh();
-        //scrollToBottom();
+        scollToBottom();
     }
-   /* private void scrollToBottom() {
-        getView().getListView().requestLayout();
-        getView().getListView().post(new Runnable() {
-            @Override
-            public void run() {
-                getView().getListView().scroll;
-            }
-        });
-    }*/
+    private void scollToBottom() {
+        getView().getListView().scrollToPosition(chats.size()+4);
+    }
 }
