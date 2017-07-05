@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/contact_portrait"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="70dp"
+        app:placeholderImage="@mipmap/ic_launcher"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text.size.normal"
+        android:textColor="@color/font_text_3"
+        android:text="11111"/>
+    <TextView
+        android:id="@+id/add_friend"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/font_text_3"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="30dp"
+        android:textSize="@dimen/text.size.normal"
+        android:text="添加"/>
+</LinearLayout>

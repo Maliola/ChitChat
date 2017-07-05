@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_gravity="bottom"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_discovery_selector"
+        android:tag="radio_button_0"
+        android:text="@string/tab_discovery" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_category_selector"
+        android:tag="radio_button_1"
+        android:text="@string/tab_catogory" />
+
+    <Button
+        style="@style/main_bottom_tab_radio_button"
+        android:drawableTop="@drawable/tab_mine_selector"
+        android:tag="radio_button_2"
+        android:text="@string/tab_mine" />
+
+</LinearLayout>

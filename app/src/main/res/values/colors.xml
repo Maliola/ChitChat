@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="line3">#e2e2e2</color>
+    <!--  常用字体颜色 -->
+    <color name="font_text_1">#333740</color>
+    <color name="font_text_2">#8b909b</color>
+    <color name="font_text_3">#70788c</color>
+    <color name="font_text_4">#ffe1b2</color>
+    <color name="font_text_5">#97a2bd</color>
+    <color name="font_text_6">#3d86ff</color>
+    <color name="font_text_7">#8b909b</color>
+
+    <!--  常用块颜色 -->
+    <color name="line_color_1">#e9ecf2</color>
+    <color name="line_color_2">#dde2ec</color>
+    <color name="line_color_3">#dde2ec</color>
+    <color name="line_color_4">#e6eaf2</color>
+
+    <color name="solid_color_1">#f7f9fc</color>
+    <color name="solid_color_2">#f7f9fc</color>
+    <color name="solid_color_3">#3d86ff</color>
+    <color name="solid_color_4">#50a2fe</color>
+    <color name="solid_color_5">#b2438aff</color>
+
+    <color name="stroke_color_1">#ced1d9</color>
+    <color name="stroke_color_2">#adb3bf</color>
+
+    <color name="gray_light">#f4f4f4</color>
+    <color name="text5">#424242</color>
+    <color name="line_color">#d5d5d5</color>
+</resources>

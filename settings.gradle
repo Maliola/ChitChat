@@ -1,0 +1,1 @@
+include ':app', ':libraries:beam', ':libraries:easyrecyclerview', ':libraries:refreshlibrary', ':libraries:sharelibrary', ':library', ':reclib-qq', ':reclib-testemoticons'

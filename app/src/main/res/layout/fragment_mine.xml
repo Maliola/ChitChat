@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/solid_color_1">
+    <RelativeLayout
+        android:id="@+id/mine_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/mine_bg">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/mine_potrait"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="17dp"
+            android:scaleType="centerCrop"
+            app:placeholderImage="@drawable/tourist"
+            app:placeholderImageScaleType="fitXY"
+            app:roundAsCircle="true" />
+        <TextView
+            android:id="@+id/mine_username"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/mine_potrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="@dimen/text.size.big"
+            android:textColor="@color/white"
+            android:text="用户名"/>
+        <TextView
+            android:id="@+id/user_desc"
+            android:layout_below="@id/mine_username"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text.size.normal"
+            android:textColor="@color/font_text_4"
+            android:text="备注"/>
+        <View
+            android:layout_below="@id/user_desc"
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/line_color_1" />
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/mine_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_wode_shezhi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.25"
+            android:textSize="@dimen/text.size.big"
+            android:textColor="@color/font_text_1"
+            android:text="设置" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:background="#00000000"
+            android:src="@drawable/selector_next" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_color_1" />
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/setting_quit"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:textColor="#888888"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:text="退出登录"
+        android:layout_gravity="bottom" />
+</LinearLayout>
