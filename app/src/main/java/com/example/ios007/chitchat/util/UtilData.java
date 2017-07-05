@@ -13,6 +13,7 @@ public class UtilData {
     static List<Contact> recommend=new ArrayList<Contact>();
     static List<Contact> contacts=new ArrayList<Contact>();
     static List<Contact> chatcontacts=new ArrayList<Contact>();
+    static List<String> chats=new ArrayList<String>();
     static{
         contacts.add(new Contact(0,"","网二",true));
         contacts.add(new Contact(1,"","李四",true));
@@ -26,6 +27,11 @@ public class UtilData {
         recommend.add(new Contact(8,"","宁静",false));
         chatcontacts.add(new Contact(0,"","网二",true));
         chatcontacts.add(new Contact(1,"","李四",true));
+        chats.add("你好啊");
+        chats.add("你好啊");
+        chats.add("你好啊");
+        chats.add("你好啊");
+        chats.add("你好啊");
     }
     public static List<Contact> getContact(){
         return contacts;
@@ -47,5 +53,11 @@ public class UtilData {
     }
     public static void delContact(Contact contact){
         contacts.remove(contact);
+    }
+    public static List<String> getChats(){
+        return chats;
+    }
+    public static void addChat(String neirong){
+        chats.add(neirong);
     }
 }

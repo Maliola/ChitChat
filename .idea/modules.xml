@@ -6,10 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/beam/beam.iml" filepath="$PROJECT_DIR$/libraries/beam/beam.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/easyrecyclerview/easyrecyclerview.iml" filepath="$PROJECT_DIR$/libraries/easyrecyclerview/easyrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emojilibrary/emojilibrary.iml" filepath="$PROJECT_DIR$/emojilibrary/emojilibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reclib-qq/reclib-qq.iml" filepath="$PROJECT_DIR$/reclib-qq/reclib-qq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reclib-testemoticons/reclib-testemoticons.iml" filepath="$PROJECT_DIR$/reclib-testemoticons/reclib-testemoticons.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/refreshlibrary/refreshlibrary.iml" filepath="$PROJECT_DIR$/libraries/refreshlibrary/refreshlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/sharelibrary/sharelibrary.iml" filepath="$PROJECT_DIR$/libraries/sharelibrary/sharelibrary.iml" />
     </modules>
